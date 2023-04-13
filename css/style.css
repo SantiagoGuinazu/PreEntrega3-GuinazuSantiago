@@ -1,0 +1,800 @@
+
+/**PROPIEDADES GENERAL**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #F7DAD9;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;    
+}
+
+/**GRID**/
+
+#grid_index {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "principal"
+    "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: principal;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/**PROPIEDADES HEADER**/
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #354259;
+    color: #fabfbd;
+    text-align: center;
+}
+
+.header h1{
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    font-size: 54px;
+}
+
+.header span{
+    font-weight: bold;
+    font-size: 74px;
+}
+
+.header ul {
+    padding-left: 0;
+}
+
+.header li {
+    display: inline;
+    border-radius: 6px;
+    background-color: #F7DAD9;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 28px;
+    margin-inline: 4px;
+    font-family: 'Sacramento', cursive;
+    text-decoration: underline;
+}
+
+.header a {
+    color: #354259;
+}
+
+.nav-list li{
+    transition: 2s;
+}
+
+.nav-list li:hover {
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+/**PROPIEDADES HABITO ALIMENTICIO**/
+
+.habitoalimenticio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    color: #354259;
+}
+
+.habitoalimenticio h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+.habitoalimenticio p {
+    padding: 10px;
+    width: 95%;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #354259;
+    font-size: 28px;
+    border: 1px solid #354259;
+    background-color: #fabfbd;
+    border-radius: 10px;
+}
+
+.habitoalimenticio img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/**PROPIEDADES CITAS**/
+
+.citas {
+    background-color: #354259;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #F7DAD9;
+    width: 95%;
+}
+
+.citas h2 {
+    background-color: #fabfbd;
+    border-radius: 10px;
+    border: 4px solid #F7DAD9;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #354259;
+    font-size: 32px;
+}
+
+.citas ul {
+    padding-left: 0;
+    margin-top: 50px
+}
+
+.serviciosplanes li{
+    display: inline;
+}
+
+.serviciosplanes li a{
+    transition: 2s;
+}
+
+.serviciosplanes li a:hover{
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+.citas a {
+    background-color: #F7DAD9; 
+    border-radius: 10px;
+    padding: 32px;
+    font-size: 42px;
+    color: #354259;
+    margin-inline: 78px;
+    border: 2px solid #fabfbd;
+    text-decoration: underline;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+}
+
+
+/**PROPIEDADES BENEFICIOS**/
+
+.beneficios {
+    background-color: #fabfbd;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    color: #354259;
+    width: 95%;
+}
+
+.beneficios h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #F7DAD9;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #F7DAD9;
+    font-size: 32px;
+}
+
+.beneficios p {
+    font-size: 32px;
+    background-color: #F7DAD9;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #354259;
+}
+
+
+/**PROPIEDADES OBRAS SOCIALES**/
+
+.obrasociales {
+    margin-bottom: 40px;
+}
+
+.obrasociales ul {
+    padding-left: 0 ;
+}
+
+.obrasociales h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #F7DAD9;
+    border: 4px solid #fabfbd;
+    width: 95%;
+    font-size: 32px;
+}
+
+.accordion-item {
+    background-color: #F7DAD9;
+}
+
+.accordion-button {
+    background-color: #fabfbd;
+    color: #354259;
+    font-size: 20px;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+}
+.obrasociales li {
+    display: inline;
+    margin-inline: 78px;
+}
+
+/**PROPIEDADES SOBRE MI**/
+
+.sobremi {
+    margin-top: 20px;
+    color: #354259;
+}
+
+.sobremi h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+.sobremi img {
+    position: relative;
+    right: 20%;
+    margin-top: 12px;
+}
+
+.sobremi li {
+    list-style-type: none;
+    font-size: 20px;
+    background-color: #fabfbd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 45%;
+    border: 2px solid #354259;
+    margin-bottom: 30px;
+}
+
+.list1 {
+    position: absolute;
+    bottom: 5%;
+    left: 32%;
+}
+.list2 {
+    position: absolute;
+    bottom: 12%;
+    left: 32%;
+}
+.list3 {
+    position: absolute;
+    bottom: 19%;
+    left: 32%;
+}
+.list4 {
+    position: absolute;
+    bottom: 26%;
+    left: 32%;
+}
+
+iframe {
+    margin-bottom: 30px;
+}
+
+h5 {
+    background-color: #354259;
+    border-radius: 10px;
+    padding: 6px;
+    color: #F7DAD9;
+    border: 2px solid #fabfbd;
+    font-size: 20px;
+}
+
+/**PROPIEDADES SERVICIOS**/
+
+.servicios {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #354259;
+}
+
+.servicios h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+
+.servicios a {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fabfbd; 
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 28px;
+    color: #354259;
+    border: 4px solid #354259;
+    text-decoration: underline;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+}
+
+.servicios a {
+    transition: 2s;
+}
+
+.servicios a:hover{
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+.accordion-flush .accordion-item:first-child {
+    margin-top: 25px;
+}
+
+/**PROPIEDADES PLANES**/
+
+.planes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #354259;
+}
+
+.planes h2  {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+.card {
+    font-size: 26px;
+    padding: 5px;
+    margin-top: 15px;
+    border: 2px solid #354259;
+    margin-bottom: 15px;
+    color: #354259;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fabfbd;
+    width: 90%;
+}
+
+.planes li {
+    transition: 2s;
+}
+
+.planes li:hover{
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+.listaboton {
+    padding: 60px;
+}
+
+.listaboton li {
+    display: inline;
+    cursor: pointer;
+    background-color: #fabfbd; 
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 28px;
+    color: #354259;
+    margin-inline: 25px;
+    border: 3px solid #354259;
+    text-decoration: underline;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+}
+
+.listaboton li a {
+    transition: 2s;
+}
+
+.listaboton li a:hover{
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+/**PROPIEDADES BLOG**/
+
+.blog {
+    margin-top: 20px;
+    color: #354259;
+}
+
+.blog h2 {
+    background-color: #354259;
+    padding: 12px;
+    margin: 0 auto;
+    color: #F7DAD9;
+    font-size: 32px;
+}
+
+.blog h3 {
+    background-color: #fabfbd;
+}
+
+.blog p {
+    font-size: 28px;
+    background-color: #F7DAD9;
+    padding: 10px;
+}
+
+.blog img {
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+
+
+/**PROPIEDADES CONTACTO**/
+.principal h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+.formgeneral {
+    color: #354259;
+    background-color: #fabfbd;
+    border: 2px solid #354259;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 400px 20px 400px;
+}
+
+.formgeneral input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1.5px solid #495e8d;
+    background-color: white;
+    padding: 12px;
+}
+
+.formgeneral select {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1.5px solid #495e8d;
+    background-color: white;
+    padding: 12px;
+}
+
+.btn-primary {
+    background-color: #495e8d;
+    border: 2px solid  #F7DAD9;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    color: #F7DAD9;
+    --bs-btn-hover-bg: lightblue;
+
+}
+
+
+/**PROPIEDADES FOOTER**/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    background-color: #354259;
+    text-align: center;
+}
+
+.redesociales li {
+    display: inline;
+    text-decoration: none;
+    margin-inline: 25px;
+}
+
+
+/**MEDIAQUERIES - HEADER**/
+@media only screen and (max-width: 700px) {
+    .header img {
+        width: 25%;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    .header span {
+        font-size: 40px;
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header li {
+        width: 70%;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header img {
+        width: 20%;
+    }
+    .header h1 {
+        font-size: 16px;
+    }
+    .header span {
+        font-size: 26px;
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header li {
+        width: 60%;
+        padding: 6px;
+        margin-top: 6px;
+    }
+}
+
+
+/**MEDIAQUERIES - HABITO ALIMENTICIO**/
+@media only screen and (max-width: 1080px) {
+    .habitoalimenticio img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .habitoalimenticio h2 {
+        font-size: 22px;
+    }
+    .habitoalimenticio p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .habitoalimenticio img {
+        width: 10%;
+    }
+    .habitoalimenticio h2 {
+        font-size: 20px;
+    }
+    .habitoalimenticio p {
+        font-size: 18px;
+    }
+}
+
+
+
+/**MEDIAQUERIES - CITAS**/
+@media only screen and (max-width:1580px) {
+    .serviciosplanes li{ 
+        display: flex;
+        flex-direction:column;
+    }
+
+    .citas {
+        padding: 25px;
+    }
+
+    .serviciosplanes li a{ 
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px;  
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .citas h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .serviciosplanes a {
+        font-size: 20px;
+    }
+    .citas {
+        margin-bottom: 16px;
+    }
+    .citas a {
+        margin-inline: 6px;
+    }
+}
+
+/**MEDIAQUERIES - BENEFICIOS**/
+@media only screen and (max-width: 900px) {
+    .beneficios h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .beneficios p {
+        font-size: 24px;
+    }
+    .beneficios img {
+    width: 18%;
+    }
+}
+
+/**MEDIAQUERIES - OBRAS SOCIALES**/
+@media only screen and (max-width: 1400px) {
+    .obrasociales img {
+        width: 15%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .obrasociales h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .obrasociales ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .obrasociales img {
+        width: 80%;
+    }
+}
+
+
+/**MEDIAQUERIES - SOBRE MI**/
+@media only screen and (max-width: 1100px) {
+    iframe {
+        width: 70%;
+        height: 70%;
+    }
+    .sobremi h2 {
+        font-size: 22px;
+    }
+    .sobremi li {
+        font-size: 20px;
+    }
+    .sobremi img {
+        position: relative;
+        right: 0;
+    }
+    .sobremi li {
+        position: inherit;
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .sobremi img {
+        width: 80%;
+    }
+}
+
+/**MEDIAQUERIES - SERVICIOS**/
+@media only screen and (max-width: 1500px) {
+    .servicios h2 {
+        font-size: 22px;
+    }
+    .servicios a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .servicios a {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+
+/**MEDIAQUERIES - PLANES**/
+@media only screen and (max-width: 1500px) {
+    .planes h2 {
+        font-size: 22px;
+    }
+    .planes a {
+        font-size: 20px;
+    }
+    .card-body {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .planes li {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .listaboton {
+        padding: 15px;
+    }
+}
+
+/**MEDIAQUERIES - BLOG**/
+@media only screen and (max-width: 600px) {
+    .blog h2 {
+        font-size: 22px;
+    }
+    .blog p {
+        font-size: 20px;
+    }
+    .blog img {
+        width: 90%;
+    }
+}
+
+/**MEDIAQUERIES - CONTACTO**/
+@media only screen and (max-width: 1300px) {
+    .formgeneral {
+        margin: 0 auto;
+    }
+}
+
+/**MEDIAQUERIES - FOOTER**/
+@media only screen and (max-width: 600px) {
+    .imgfooter img {
+        width: 35%;
+    }
+}
