@@ -1,0 +1,45 @@
+
+/**PROPIEDADES GENERAL**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #F7DAD9;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;    
+}
+
+/**GRID**/
+
+#grid_index {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "principal"
+    "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: principal;
+}
+
+footer {
+    grid-area: footer;
+}

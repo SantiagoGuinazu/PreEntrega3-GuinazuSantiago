@@ -1,0 +1,165 @@
+
+/**PROPIEDADES INDEX**/
+
+/**PROPIEDADES HABITO ALIMENTICIO**/
+
+.habitoalimenticio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    color: #354259;
+}
+
+.habitoalimenticio h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #fabfbd;
+    padding: 12px;
+    margin: 0 auto;
+    color: #F7DAD9;
+    width: 95%;
+    font-size: 32px;
+}
+
+.habitoalimenticio p {
+    padding: 10px;
+    width: 95%;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #354259;
+    font-size: 28px;
+    border: 1px solid #354259;
+    background-color: #fabfbd;
+    border-radius: 10px;
+}
+
+.habitoalimenticio img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/**PROPIEDADES CITAS**/
+
+.citas {
+    background-color: #354259;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #F7DAD9;
+    width: 95%;
+}
+
+.citas h2 {
+    background-color: #fabfbd;
+    border-radius: 10px;
+    border: 4px solid #F7DAD9;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #354259;
+    font-size: 32px;
+}
+
+.citas ul {
+    padding-left: 0;
+    margin-top: 50px
+}
+
+.serviciosplanes li{
+    display: inline;
+}
+
+.serviciosplanes li a{
+    transition: 2s;
+}
+
+.serviciosplanes li a:hover{
+    text-decoration: underline red;
+    background-color: lightblue;
+}
+
+.citas a {
+    background-color: #F7DAD9; 
+    border-radius: 10px;
+    padding: 32px;
+    font-size: 42px;
+    color: #354259;
+    margin-inline: 78px;
+    border: 2px solid #fabfbd;
+    text-decoration: underline;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+}
+
+
+/**PROPIEDADES BENEFICIOS**/
+
+.beneficios {
+    background-color: #fabfbd;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    color: #354259;
+    width: 95%;
+}
+
+.beneficios h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    border: 4px solid #F7DAD9;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #F7DAD9;
+    font-size: 32px;
+}
+
+.beneficios p {
+    font-size: 32px;
+    background-color: #F7DAD9;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #354259;
+}
+
+
+/**PROPIEDADES OBRAS SOCIALES**/
+
+.obrasociales {
+    margin-bottom: 40px;
+}
+
+.obrasociales ul {
+    padding-left: 0 ;
+}
+
+.obrasociales h2 {
+    background-color: #354259;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #F7DAD9;
+    border: 4px solid #fabfbd;
+    width: 95%;
+    font-size: 32px;
+}
+
+.accordion-item {
+    background-color: #F7DAD9;
+}
+
+.accordion-button {
+    background-color: #fabfbd;
+    color: #354259;
+    font-size: 20px;
+    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+}
+.obrasociales li {
+    display: inline;
+    margin-inline: 78px;
+}

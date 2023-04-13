@@ -1,0 +1,20 @@
+
+/** IMPORTS **/
+@import "base/vars";
+@import "base/reset";
+@import "base/utilidades";
+
+
+/** IMPORTS COMPONENTES**/
+@import "components/header";
+@import "components/footer";
+
+
+/** IMPORTS LAYOUT**/
+@import "layout/index";
+@import "layout/sobremi";
+@import "layout/servicios";
+@import "layout/planes";
+@import "layout/contacto";
+@import "layout/blog";
+@import "layout/mediaqueries";

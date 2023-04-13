@@ -1,0 +1,17 @@
+
+/**PROPIEDADES FOOTER**/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    background-color: #354259;
+    text-align: center;
+}
+
+.redesociales li {
+    display: inline;
+    text-decoration: none;
+    margin-inline: 25px;
+}
+

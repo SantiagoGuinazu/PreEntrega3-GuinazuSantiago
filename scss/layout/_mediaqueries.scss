@@ -1,0 +1,243 @@
+/**MEDIAQUERIES - HEADER**/
+@media only screen and (max-width: 700px) {
+    .header img {
+        width: 25%;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    .header span {
+        font-size: 40px;
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header li {
+        width: 70%;
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header img {
+        width: 20%;
+    }
+    .header h1 {
+        font-size: 16px;
+    }
+    .header span {
+        font-size: 26px;
+    }
+    .header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header li {
+        width: 60%;
+        padding: 6px;
+        margin-top: 6px;
+    }
+}
+
+
+/**MEDIAQUERIES - HABITO ALIMENTICIO**/
+@media only screen and (max-width: 1080px) {
+    .habitoalimenticio img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .habitoalimenticio h2 {
+        font-size: 22px;
+    }
+    .habitoalimenticio p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .habitoalimenticio img {
+        width: 10%;
+    }
+    .habitoalimenticio h2 {
+        font-size: 20px;
+    }
+    .habitoalimenticio p {
+        font-size: 18px;
+    }
+}
+
+
+
+/**MEDIAQUERIES - CITAS**/
+@media only screen and (max-width:1580px) {
+    .serviciosplanes li{ 
+        display: flex;
+        flex-direction:column;
+    }
+
+    .citas {
+        padding: 25px;
+    }
+
+    .serviciosplanes li a{ 
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px;  
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .citas h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .serviciosplanes a {
+        font-size: 20px;
+    }
+    .citas {
+        margin-bottom: 16px;
+    }
+    .citas a {
+        margin-inline: 6px;
+    }
+}
+
+/**MEDIAQUERIES - BENEFICIOS**/
+@media only screen and (max-width: 900px) {
+    .beneficios h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .beneficios p {
+        font-size: 24px;
+    }
+    .beneficios img {
+    width: 18%;
+    }
+}
+
+/**MEDIAQUERIES - OBRAS SOCIALES**/
+@media only screen and (max-width: 1400px) {
+    .obrasociales img {
+        width: 15%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .obrasociales h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .obrasociales ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .obrasociales img {
+        width: 80%;
+    }
+}
+
+
+/**MEDIAQUERIES - SOBRE MI**/
+@media only screen and (max-width: 1100px) {
+    iframe {
+        width: 70%;
+        height: 70%;
+    }
+    .sobremi h2 {
+        font-size: 22px;
+    }
+    .sobremi li {
+        font-size: 20px;
+    }
+    .sobremi img {
+        position: relative;
+        right: 0;
+    }
+    .sobremi li {
+        position: inherit;
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .sobremi img {
+        width: 80%;
+    }
+}
+
+/**MEDIAQUERIES - SERVICIOS**/
+@media only screen and (max-width: 1500px) {
+    .servicios h2 {
+        font-size: 22px;
+    }
+    .servicios a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .servicios a {
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+
+/**MEDIAQUERIES - PLANES**/
+@media only screen and (max-width: 1500px) {
+    .planes h2 {
+        font-size: 22px;
+    }
+    .planes a {
+        font-size: 20px;
+    }
+    .card-body {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .planes li {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .listaboton {
+        padding: 15px;
+    }
+}
+
+/**MEDIAQUERIES - BLOG**/
+@media only screen and (max-width: 600px) {
+    .blog h2 {
+        font-size: 22px;
+    }
+    .blog p {
+        font-size: 20px;
+    }
+    .blog img {
+        width: 90%;
+    }
+}
+
+/**MEDIAQUERIES - CONTACTO**/
+@media only screen and (max-width: 1300px) {
+    .formgeneral {
+        margin: 0 auto;
+    }
+}
+
+/**MEDIAQUERIES - FOOTER**/
+@media only screen and (max-width: 600px) {
+    .imgfooter img {
+        width: 35%;
+    }
+}

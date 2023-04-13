@@ -1,0 +1,18 @@
+
+/** VARIABLES **/
+
+.boton {
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #eee;
+
+    @if $tipo == primary {
+    background-color: rgb(43, 43, 235);
+    } @else if $tipo == secondary {
+        background-color: aquamarine;
+    } @else {
+        background-color: #eee;
+        color: #191919;
+    }
+}
