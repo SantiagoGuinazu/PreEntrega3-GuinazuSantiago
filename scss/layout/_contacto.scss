@@ -22,23 +22,21 @@
     font-size: 20px;
     text-align: center;
     margin: 20px 400px 20px 400px;
-}
-
-.formgeneral input {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: 1.5px solid #495e8d;
-    background-color: white;
-    padding: 12px;
-}
-
-.formgeneral select {
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: 1.5px solid #495e8d;
-    background-color: white;
-    padding: 12px;
+    input {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1.5px solid #495e8d;
+        background-color: white;
+        padding: 12px;
+    }
+    select {
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1.5px solid #495e8d;
+        background-color: white;
+        padding: 12px;
+    }
 }
 
 .btn-primary {
