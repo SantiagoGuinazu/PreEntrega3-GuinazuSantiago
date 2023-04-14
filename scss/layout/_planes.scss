@@ -15,7 +15,7 @@
         margin: 0 auto;
         color: $bg-lightpink;
         width: 95%;
-        font-size: 32px;
+        font-size: $fsh2;
     }
     li {
         transition: 2s;
@@ -31,7 +31,7 @@
         border: 2px solid $bg-blue;
         margin-bottom: 15px;
         color: $bg-blue;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: $main-fontbody;
         background-color: $bg-pink;
         width: 90%;
     }
@@ -45,15 +45,16 @@
         background-color: $bg-pink; 
         border-radius: 10px;
         padding: 30px;
-        font-size: 28px;
+        font-size: $fsli;
         color: $bg-blue;
         margin-inline: 25px;
         border: 3px solid $bg-blue;
         text-decoration: underline;
-        font-family: "Google Sans",Helvetica,Arial,sans-serif;
+        font-family: $main-fonta;
         margin-top: 20px;
         a {
             transition: 2s;
+            font-size: $fsa;
             &:hover {
                 text-decoration: underline red;
                 background-color: lightblue;

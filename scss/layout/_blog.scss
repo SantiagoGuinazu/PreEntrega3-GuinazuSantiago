@@ -9,13 +9,14 @@
         padding: 12px;
         margin: 0 auto;
         color: $bg-lightpink;
-        font-size: 32px;
+        font-size: $fsh2;
     }
     h3 {
         background-color: $bg-pink;
+        font-size: $fsh3;
     }
     p {
-        font-size: 28px;
+        font-size: $fsp;
         background-color: $bg-lightpink;
         padding: 10px;
     }

@@ -12,7 +12,7 @@
         margin: 0 auto;
         color: $bg-lightpink;
         width: 95%;
-        font-size: 32px;
+        font-size: $fsh2;
     }
     img {
         position: relative;
@@ -21,7 +21,7 @@
     }
     li {
         list-style-type: none;
-        font-size: 20px;
+        font-size: $fsli;
         background-color: $bg-pink;
         border-radius: 10px;
         padding: 10px;

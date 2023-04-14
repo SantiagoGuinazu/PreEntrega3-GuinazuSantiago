@@ -10,7 +10,7 @@
     margin-bottom: 15px;
     color: $bg-lightpink;
     width: 95%;
-    font-size: 32px;
+    font-size: $fsh2;
 }
 
 .formgeneral {
@@ -19,7 +19,7 @@
     border: 2px solid $bg-blue;
     border-radius: 8px;
     padding: 5px;
-    font-size: 20px;
+    font-size: $fslabel;
     text-align: center;
     margin: 20px 400px 20px 400px;
     input {
@@ -46,7 +46,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    font-family: "Google Sans",Helvetica,Arial,sans-serif;
+    font-family: $main-fonta;
     cursor: pointer;
     font-size: 18px;
     color: $bg-lightpink;

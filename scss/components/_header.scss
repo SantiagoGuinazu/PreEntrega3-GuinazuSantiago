@@ -9,12 +9,12 @@ header {
     text-align: center;
     h1{
         font-weight: lighter;
-        font-family: 'Raleway', sans-serif;
-        font-size: 54px;
+        font-family: $main-fonth;
+        font-size: $fsh1;
     }
     span{
         font-weight: bold;
-        font-size: 74px;
+        font-size: $fsh1span;
     }
     ul {
         padding-left: 0;
@@ -26,13 +26,14 @@ header {
         padding: 8px;
         font-weight: bold;
         cursor: pointer;
-        font-size: 28px;
+        font-size: $fsli;
         margin-inline: 4px;
         font-family: 'Sacramento', cursive;
         text-decoration: underline;
     }
     a {
         color: #354259;
+        font-size: $fsa;
     }
 }
 

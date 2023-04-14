@@ -9,12 +9,13 @@
 
 a {
     text-decoration: none;
+    font-size: $fsa;
 }
 
 body {
     background-color: $bg-lightpink;
     font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: $main-fontbody;
     text-align: center;
 }
 
