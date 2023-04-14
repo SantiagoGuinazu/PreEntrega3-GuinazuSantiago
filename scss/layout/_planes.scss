@@ -2,19 +2,18 @@
 /**PROPIEDADES PLANES**/
 
 .planes {
-    display: flex;
-    flex-direction: column;
+    @include flex(column,center);
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
-    color: #354259;
+    color: $bg-blue;
     h2 {
-        background-color: #354259;
+        background-color: $bg-blue;
         border-radius: 10px;
-        border: 4px solid #fabfbd;
+        border: 4px solid $bg-pink;
         padding: 12px;
         margin: 0 auto;
-        color: #F7DAD9;
+        color: $bg-lightpink;
         width: 95%;
         font-size: 32px;
     }
@@ -25,19 +24,17 @@
             background-color: lightblue;
         }
     }
-}
-
-
-.card {
-    font-size: 26px;
-    padding: 5px;
-    margin-top: 15px;
-    border: 2px solid #354259;
-    margin-bottom: 15px;
-    color: #354259;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #fabfbd;
-    width: 90%;
+    .card {
+        font-size: 26px;
+        padding: 5px;
+        margin-top: 15px;
+        border: 2px solid $bg-blue;
+        margin-bottom: 15px;
+        color: $bg-blue;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: $bg-pink;
+        width: 90%;
+    }
 }
 
 .listaboton {
@@ -45,13 +42,13 @@
     li {
         display: inline;
         cursor: pointer;
-        background-color: #fabfbd; 
+        background-color: $bg-pink; 
         border-radius: 10px;
         padding: 30px;
         font-size: 28px;
-        color: #354259;
+        color: $bg-blue;
         margin-inline: 25px;
-        border: 3px solid #354259;
+        border: 3px solid $bg-blue;
         text-decoration: underline;
         font-family: "Google Sans",Helvetica,Arial,sans-serif;
         margin-top: 20px;

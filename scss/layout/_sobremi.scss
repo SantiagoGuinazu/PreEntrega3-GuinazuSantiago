@@ -3,14 +3,14 @@
 
 .sobremi {
     margin-top: 20px;
-    color: #354259;
+    color: $bg-blue;
     h2 {
-        background-color: #354259;
+        background-color: $bg-blue;
         border-radius: 10px;
-        border: 4px solid #fabfbd;
+        border: 4px solid $bg-pink;
         padding: 12px;
         margin: 0 auto;
-        color: #F7DAD9;
+        color: $bg-lightpink;
         width: 95%;
         font-size: 32px;
     }
@@ -22,46 +22,35 @@
     li {
         list-style-type: none;
         font-size: 20px;
-        background-color: #fabfbd;
+        background-color: $bg-pink;
         border-radius: 10px;
         padding: 10px;
         margin: 0 auto;
         width: 45%;
-        border: 2px solid #354259;
+        border: 2px solid $bg-blue;
         margin-bottom: 30px;
     }
-}
-
-.list1 {
-    position: absolute;
-    bottom: 5%;
-    left: 32%;
-}
-.list2 {
-    position: absolute;
-    bottom: 12%;
-    left: 32%;
-}
-.list3 {
-    position: absolute;
-    bottom: 19%;
-    left: 32%;
-}
-.list4 {
-    position: absolute;
-    bottom: 26%;
-    left: 32%;
-}
-
-iframe {
-    margin-bottom: 30px;
-}
-
-h5 {
-    background-color: #354259;
-    border-radius: 10px;
-    padding: 6px;
-    color: #F7DAD9;
-    border: 2px solid #fabfbd;
-    font-size: 20px;
+    iframe {
+        margin-bottom: 30px;
+    }
+    .list1 {
+        position: absolute;
+        bottom: 5%;
+        left: 32%;
+    }
+    .list2 {
+        position: absolute;
+        bottom: 12%;
+        left: 32%;
+    }
+    .list3 {
+        position: absolute;
+        bottom: 19%;
+        left: 32%;
+    }
+    .list4 {
+        position: absolute;
+        bottom: 26%;
+        left: 32%;
+    }
 }

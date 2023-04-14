@@ -3,20 +3,20 @@
 
 .blog {
     margin-top: 20px;
-    color: #354259;
+    color: $bg-blue;
     h2 {
-        background-color: #354259;
+        background-color: $bg-blue;
         padding: 12px;
         margin: 0 auto;
-        color: #F7DAD9;
+        color: $bg-lightpink;
         font-size: 32px;
     }
     h3 {
-        background-color: #fabfbd;
+        background-color: $bg-pink;
     }
     p {
         font-size: 28px;
-        background-color: #F7DAD9;
+        background-color: $bg-lightpink;
         padding: 10px;
     }
     img {

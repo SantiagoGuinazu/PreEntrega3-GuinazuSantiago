@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background-color: #F7DAD9;
+    background-color: $bg-lightpink;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -20,26 +20,4 @@ body {
 
 ul {
     padding-left: 0;    
-}
-
-/**GRID**/
-
-#grid_index {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: principal;
-}
-
-footer {
-    grid-area: footer;
 }
