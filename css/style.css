@@ -407,9 +407,20 @@ h5 {
   width: 90%;
 }
 
+.card p {
+  margin-bottom: 0;
+}
+
+.card-body {
+  font-size: 26px;
+  color: #354259;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .listaboton {
   padding: 60px;
 }
+
 .listaboton li {
   display: inline;
   cursor: pointer;
@@ -723,6 +734,13 @@ h5 {
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .principal h2 {
+      font-size: 22px;
+  }
+}
+
 /**MEDIAQUERIES - FOOTER**/
 @media only screen and (max-width: 600px) {
   .imgfooter img {

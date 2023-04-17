@@ -34,6 +34,14 @@
         font-family: $main-fontbody;
         background-color: $bg-pink;
         width: 90%;
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .card-body {
+        font-size: 26px;
+        color: #354259;
+        font-family: 'Ubuntu', sans-serif;
     }
 }
 
