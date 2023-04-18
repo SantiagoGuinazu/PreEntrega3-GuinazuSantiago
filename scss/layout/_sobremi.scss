@@ -29,6 +29,10 @@
         width: 45%;
         border: 2px solid $bg-blue;
         margin-bottom: 30px;
+        transition: 1s;
+        &:hover {
+            box-shadow: 5px 5px 0px 0px #272727;
+        }
     }
     iframe {
         margin-bottom: 30px;

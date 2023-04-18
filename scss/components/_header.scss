@@ -36,6 +36,10 @@ header {
         color: #354259;
         font-size: $fsa;
     }
+    img:hover {
+        transition: 1s;
+        transform: rotate(360deg);
+    }
 }
 
 .nav-list li{

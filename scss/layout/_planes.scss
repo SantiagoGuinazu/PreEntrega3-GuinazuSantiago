@@ -24,7 +24,8 @@
             background-color: lightblue;
         }
     }
-    .card {
+}
+.card {
         font-size: 26px;
         padding: 5px;
         margin-top: 15px;
@@ -34,16 +35,20 @@
         font-family: $main-fontbody;
         background-color: $bg-pink;
         width: 90%;
+        transition: 1s;
+        &:hover {
+            box-shadow: 5px 5px 0px 0px #272727;
+        }
         p {
             margin-bottom: 0;
-        }
-    }
-    .card-body {
-        font-size: 26px;
-        color: #354259;
-        font-family: 'Ubuntu', sans-serif;
     }
 }
+.card-body {
+    font-size: 26px;
+    color: #354259;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 .listaboton {
     padding: 60px;
