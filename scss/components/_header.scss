@@ -11,6 +11,7 @@ header {
         font-weight: lighter;
         font-family: $main-fonth;
         font-size: $fsh1;
+        margin: 0;
     }
     span{
         font-weight: bold;
@@ -23,7 +24,7 @@ header {
         display: inline;
         border-radius: 6px;
         background-color: #F7DAD9;
-        padding: 8px;
+        padding: 10px;
         font-weight: bold;
         cursor: pointer;
         font-size: $fsli;

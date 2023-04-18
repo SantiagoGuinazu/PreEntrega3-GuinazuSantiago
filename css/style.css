@@ -1,8 +1,6 @@
-@charset "UTF-8";
-/** IMPORTS **/ /** VARIABLES DE COLORES **/
+/** IMPORTS BASE**/ /** VARIABLES DE COLORES **/
 /** VARIABLES DE FUENTES **/
-/** VARIABLES DE TAMAÑOS **/
-/** VARIABLES DE BOTONES **/
+/** VARIABLES DE FONT SIZES **/
 /**PROPIEDADES GENERAL**/
 * {
   margin: 0;
@@ -12,6 +10,7 @@
 
 a {
   text-decoration: none;
+  font-size: 28px;
 }
 
 body {
@@ -25,33 +24,7 @@ ul {
   padding-left: 0;
 }
 
-/**GRID**/
-#grid_index {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: principal;
-}
-
-footer {
-  grid-area: footer;
-}
-
-/** VARIABLES **/
-.boton {
-  padding: 15px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #eee;
-  background-color: rgb(43, 43, 235);
-}
-
+/** UTILIDADES **/
 /** IMPORTS COMPONENTES**/
 /**PROPIEDADES HEADER**/
 header {
@@ -65,6 +38,7 @@ header h1 {
   font-weight: lighter;
   font-family: "Raleway", sans-serif;
   font-size: 54px;
+  margin: 0;
 }
 header span {
   font-weight: bold;
@@ -77,16 +51,17 @@ header li {
   display: inline;
   border-radius: 6px;
   background-color: #F7DAD9;
-  padding: 8px;
+  padding: 10px;
   font-weight: bold;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 20px;
   margin-inline: 4px;
   font-family: "Sacramento", cursive;
   text-decoration: underline;
 }
 header a {
   color: #354259;
+  font-size: 28px;
 }
 
 .nav-list li {
@@ -114,6 +89,24 @@ footer {
 
 /** IMPORTS LAYOUT**/
 /**PROPIEDADES INDEX**/
+/**GRID**/
+#grid_index {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: principal;
+}
+
+footer {
+  grid-area: footer;
+}
+
 /**PROPIEDADES HABITO ALIMENTICIO**/
 .habitoalimenticio {
   display: flex;
@@ -147,6 +140,14 @@ footer {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.habitoalimenticio h5 {
+  background-color: #354259;
+  border-radius: 10px;
+  padding: 6px;
+  color: #F7DAD9;
+  border: 2px solid #fabfbd;
+  font-size: 20px;
+}
 
 /**PROPIEDADES CITAS**/
 .citas {
@@ -178,7 +179,7 @@ footer {
   background-color: #F7DAD9;
   border-radius: 10px;
   padding: 32px;
-  font-size: 42px;
+  font-size: 28px;
   color: #354259;
   margin-inline: 78px;
   border: 2px solid #fabfbd;
@@ -187,6 +188,7 @@ footer {
 }
 .citas li {
   display: inline;
+  font-size: 20px;
 }
 .citas li a {
   transition: 2s;
@@ -217,11 +219,24 @@ footer {
   font-size: 32px;
 }
 .beneficios p {
-  font-size: 32px;
+  font-size: 28px;
   background-color: #F7DAD9;
   border-radius: 10px;
   padding: 10px;
   border: 2px solid #354259;
+}
+
+.gradientes p {
+  background: linear-gradient(to top, #f0928f, #fcc1bf);
+}
+.gradientes img {
+  background: radial-gradient(circle, #f0928f, #fcc1bf);
+  margin-bottom: 20px;
+  border-radius: 100%;
+}
+.gradientes img:hover {
+  transition: 1s;
+  transform: rotate(360deg);
 }
 
 /**PROPIEDADES OBRAS SOCIALES**/
@@ -246,12 +261,14 @@ footer {
   display: inline;
   margin-inline: 78px;
 }
-
-.accordion-item {
+.obrasociales img:hover {
+  transform: rotate(15deg);
+  transition: 1s;
+}
+.obrasociales .accordion-item {
   background-color: #F7DAD9;
 }
-
-.accordion-button {
+.obrasociales .accordion-button {
   background-color: #fabfbd;
   color: #354259;
   font-size: 20px;
@@ -289,42 +306,28 @@ footer {
   border: 2px solid #354259;
   margin-bottom: 30px;
 }
-
-.list1 {
+.sobremi iframe {
+  margin-bottom: 30px;
+}
+.sobremi .list1 {
   position: absolute;
   bottom: 5%;
   left: 32%;
 }
-
-.list2 {
+.sobremi .list2 {
   position: absolute;
   bottom: 12%;
   left: 32%;
 }
-
-.list3 {
+.sobremi .list3 {
   position: absolute;
   bottom: 19%;
   left: 32%;
 }
-
-.list4 {
+.sobremi .list4 {
   position: absolute;
   bottom: 26%;
   left: 32%;
-}
-
-iframe {
-  margin-bottom: 30px;
-}
-
-h5 {
-  background-color: #354259;
-  border-radius: 10px;
-  padding: 6px;
-  color: #F7DAD9;
-  border: 2px solid #fabfbd;
-  font-size: 20px;
 }
 
 /**PROPIEDADES SERVICIOS**/
@@ -363,8 +366,7 @@ h5 {
   text-decoration: underline red;
   background-color: lightblue;
 }
-
-.accordion-flush .accordion-item:first-child {
+.servicios .accordion-flush .accordion-item:first-child {
   margin-top: 25px;
 }
 
@@ -372,6 +374,7 @@ h5 {
 .planes {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 20px;
   align-items: center;
   margin-bottom: 20px;
@@ -394,8 +397,7 @@ h5 {
   text-decoration: underline red;
   background-color: lightblue;
 }
-
-.card {
+.planes .card {
   font-size: 26px;
   padding: 5px;
   margin-top: 15px;
@@ -406,28 +408,25 @@ h5 {
   background-color: #fabfbd;
   width: 90%;
 }
-
-.card p {
+.planes .card p {
   margin-bottom: 0;
 }
-
-.card-body {
+.planes .card-body {
   font-size: 26px;
   color: #354259;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .listaboton {
   padding: 60px;
 }
-
 .listaboton li {
   display: inline;
   cursor: pointer;
   background-color: #fabfbd;
   border-radius: 10px;
   padding: 30px;
-  font-size: 28px;
+  font-size: 20px;
   color: #354259;
   margin-inline: 25px;
   border: 3px solid #354259;
@@ -437,10 +436,24 @@ h5 {
 }
 .listaboton li a {
   transition: 2s;
+  font-size: 28px;
 }
 .listaboton li a:hover {
   text-decoration: underline red;
   background-color: lightblue;
+}
+
+.beneficios p {
+  background: linear-gradient(to top, #f0928f, #fcc1bf);
+}
+.beneficios img {
+  background: radial-gradient(circle, #f0928f, #fcc1bf);
+  margin-bottom: 20px;
+  border-radius: 100%;
+}
+.beneficios img:hover {
+  transition: 1s;
+  transform: rotate(360deg);
 }
 
 /**PROPIEDADES CONTACTO**/
@@ -511,6 +524,7 @@ h5 {
 }
 .blog h3 {
   background-color: #fabfbd;
+  font-size: 24px;
 }
 .blog p {
   font-size: 28px;
@@ -548,7 +562,7 @@ h5 {
     width: 20%;
   }
   .header h1 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .header span {
     font-size: 26px;
@@ -560,7 +574,7 @@ h5 {
   }
   .header li {
     width: 60%;
-    padding: 6px;
+    padding: 3px;
     margin-top: 6px;
   }
 }
@@ -734,13 +748,11 @@ h5 {
     margin: 0 auto;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .principal h2 {
-      font-size: 22px;
+    font-size: 22px;
   }
 }
-
 /**MEDIAQUERIES - FOOTER**/
 @media only screen and (max-width: 600px) {
   .imgfooter img {

@@ -70,3 +70,18 @@
         }
     }
 }
+
+.beneficios {
+    p {
+        background: linear-gradient(to top,#f0928f,#fcc1bf);
+    }
+    img {
+        background: radial-gradient(circle,#f0928f,#fcc1bf);
+        margin-bottom: 20px;
+        border-radius: 100%;
+        &:hover {
+            transition: 1s;
+            transform: rotate(360deg);
+        }
+    }
+}
