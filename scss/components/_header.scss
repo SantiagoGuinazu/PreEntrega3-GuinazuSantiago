@@ -42,6 +42,29 @@ header {
     }
 }
 
+.titulo {
+    display: inline-block;
+    position: relative;
+}
+.titulo:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 10px;
+    left: 0;
+    background-color: #F7DAD9;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+    
+}
+.titulo:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 .nav-list li{
     transition: 2s;
     &:hover {

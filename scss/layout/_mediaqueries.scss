@@ -18,6 +18,10 @@
         width: 70%;
         margin-top: 6px;
     }
+    .titulo:after {
+        height: 2px;
+        bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -197,9 +201,12 @@
         font-size: 22px;
     }
     .planes a {
-        font-size: 20px;
+        font-size: 18px;
     }
     .card-body {
+        font-size: 20px;
+    }
+    .listaboton li a {
         font-size: 20px;
     }
 }

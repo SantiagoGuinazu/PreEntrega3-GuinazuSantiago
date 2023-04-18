@@ -147,6 +147,10 @@ footer {
         border-radius: 10px;
         padding: 10px;
         border: 2px solid $bg-blue;
+        transition: 1s;
+        &:hover {
+            box-shadow: 5px 5px 0px 0px #272727;
+        }
     }
 }
 
