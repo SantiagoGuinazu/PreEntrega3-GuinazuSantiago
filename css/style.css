@@ -745,17 +745,29 @@ footer {
   .sobremi h2 {
     font-size: 22px;
   }
-  .sobremi li {
-    font-size: 20px;
-  }
   .sobremi img {
     position: relative;
-    right: 0;
   }
   .sobremi li {
-    position: inherit;
-    width: 80%;
+    width: 50%;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .sobremi img {
+    position: inherit;
+  }
+  .sobremi .list4 {
+    position: inherit;
+  }
+  .sobremi .list3 {
+    position: inherit;
+  }
+  .sobremi .list2 {
+    position: inherit;
+  }
+  .sobremi .list1 {
+    position: inherit;
   }
 }
 @media only screen and (max-width: 650px) {
