@@ -37,6 +37,14 @@
         background-color: white;
         padding: 12px;
     }
+    .legal a {
+        color: #495e8d;
+        font-size: 20px;
+        text-decoration: underline;
+        &:hover {
+            background-color: $bg-lightpink;
+        }
+    }
 }
 
 .btn-primary {

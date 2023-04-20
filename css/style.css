@@ -557,6 +557,14 @@ footer {
   background-color: white;
   padding: 12px;
 }
+.formgeneral .legal a {
+  color: #495e8d;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.formgeneral .legal a:hover {
+  background-color: #F7DAD9;
+}
 
 .btn-primary {
   background-color: #495e8d;
