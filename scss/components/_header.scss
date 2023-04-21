@@ -36,9 +36,13 @@ header {
         color: #354259;
         font-size: $fsa;
     }
-    img:hover {
-        transition: 1s;
-        transform: rotate(360deg);
+    img {
+        width: auto;
+        height: auto;
+        &:hover {
+            transition: 1s;
+            transform: rotate(360deg);
+        }
     }
 }
 
