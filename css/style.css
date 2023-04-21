@@ -63,10 +63,6 @@ header a {
   color: #354259;
   font-size: 28px;
 }
-header img {
-  width: auto;
-  height: auto;
-}
 header img:hover {
   transition: 1s;
   transform: rotate(360deg);
@@ -110,10 +106,6 @@ footer {
   padding: 22px;
   background-color: #354259;
   text-align: center;
-}
-footer img {
-  width: auto;
-  height: auto;
 }
 footer img:hover {
   transition: 1s;

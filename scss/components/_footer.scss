@@ -7,13 +7,9 @@ footer {
     padding: 22px;
     background-color: #354259;
     text-align: center;
-    img {
-        width: auto;
-        height: auto;
-        &:hover {
-            transition: 1s;
-            transform: rotate(360deg);
-        }
+    img:hover {
+        transition: 1s;
+        transform: rotate(360deg);
     }
 }
 
