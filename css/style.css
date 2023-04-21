@@ -453,8 +453,7 @@ footer {
   text-decoration: underline red;
   background-color: lightblue;
 }
-
-.card {
+.planes .card {
   font-size: 26px;
   padding: 5px;
   margin-top: 15px;
@@ -466,23 +465,21 @@ footer {
   width: 90%;
   transition: 1s;
 }
-.card:hover {
+.planes .card:hover {
   box-shadow: 5px 5px 0px 0px #272727;
 }
-.card p {
+.planes .card p {
   margin-bottom: 0;
 }
-
-.card-body {
+.planes .card .card-body {
   font-size: 26px;
   color: #354259;
   font-family: "Ubuntu", sans-serif;
 }
-
-.listaboton {
+.planes .listaboton {
   padding: 60px;
 }
-.listaboton li {
+.planes .listaboton li {
   display: inline;
   cursor: pointer;
   background-color: #fabfbd;
@@ -496,13 +493,13 @@ footer {
   font-family: "Google Sans", Helvetica, Arial, sans-serif;
   margin-top: 20px;
 }
-.listaboton li a {
+.planes .listaboton li:hover {
   transition: 2s;
-  font-size: 28px;
-}
-.listaboton li a:hover {
   text-decoration: underline red;
   background-color: lightblue;
+}
+.planes .listaboton li a {
+  font-size: 28px;
 }
 
 .beneficios p {
@@ -565,8 +562,7 @@ footer {
 .formgeneral .legal a:hover {
   background-color: #F7DAD9;
 }
-
-.btn-primary {
+.formgeneral .btn-primary {
   background-color: #495e8d;
   border: 2px solid #F7DAD9;
   border-radius: 8px;

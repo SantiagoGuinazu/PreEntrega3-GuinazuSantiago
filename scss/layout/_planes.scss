@@ -24,8 +24,7 @@
             background-color: lightblue;
         }
     }
-}
-.card {
+    .card {
         font-size: 26px;
         padding: 5px;
         margin-top: 15px;
@@ -41,36 +40,35 @@
         }
         p {
             margin-bottom: 0;
+        }
+        .card-body {
+            font-size: 26px;
+            color: #354259;
+            font-family: 'Ubuntu', sans-serif;
+        }
     }
-}
-.card-body {
-    font-size: 26px;
-    color: #354259;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
-.listaboton {
-    padding: 60px;
-    li {
-        display: inline;
-        cursor: pointer;
-        background-color: $bg-pink; 
-        border-radius: 10px;
-        padding: 30px;
-        font-size: $fsli;
-        color: $bg-blue;
-        margin-inline: 25px;
-        border: 3px solid $bg-blue;
-        text-decoration: underline;
-        font-family: $main-fonta;
-        margin-top: 20px;
-        a {
-            transition: 2s;
-            font-size: $fsa;
+    .listaboton {
+        padding: 60px;
+        li {
+            display: inline;
+            cursor: pointer;
+            background-color: $bg-pink; 
+            border-radius: 10px;
+            padding: 30px;
+            font-size: $fsli;
+            color: $bg-blue;
+            margin-inline: 25px;
+            border: 3px solid $bg-blue;
+            text-decoration: underline;
+            font-family: $main-fonta;
+            margin-top: 20px;
             &:hover {
+                transition: 2s;
                 text-decoration: underline red;
                 background-color: lightblue;
+            }
+            a {
+                font-size: $fsa;
             }
         }
     }

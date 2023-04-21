@@ -45,18 +45,17 @@
             background-color: $bg-lightpink;
         }
     }
-}
-
-.btn-primary {
-    background-color: #495e8d;
-    border: 2px solid  $bg-lightpink;
-    border-radius: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-    font-family: $main-fonta;
-    cursor: pointer;
-    font-size: 18px;
-    color: $bg-lightpink;
-    --bs-btn-hover-bg: lightblue;
+    .btn-primary {
+        background-color: #495e8d;
+        border: 2px solid  $bg-lightpink;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        font-family: $main-fonta;
+        cursor: pointer;
+        font-size: 18px;
+        color: $bg-lightpink;
+        --bs-btn-hover-bg: lightblue;
+    }
 }
