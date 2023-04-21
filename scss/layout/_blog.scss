@@ -1,8 +1,19 @@
 
 /**PROPIEDADES BLOG**/
 
+/**GRID**/
+
+#grid_blog {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "principal"
+    "footer";
+}
+
 .blog {
     margin-top: 20px;
+    margin-bottom: 20px;
     color: $bg-blue;
     h2 {
         background-color: $bg-blue;

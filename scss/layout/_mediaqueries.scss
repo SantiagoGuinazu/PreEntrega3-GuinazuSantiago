@@ -216,22 +216,22 @@
     .planes a {
         font-size: 18px;
     }
-    .card-body {
+    .planes .card-body {
         font-size: 20px;
     }
-    .listaboton li a {
+    .planes .listaboton li a {
         font-size: 20px;
     }
 }
 @media only screen and (max-width: 1200px) {
-    .planes li {
-        display: flex;
-        flex-direction: column;
+    .planes .listaboton {
         padding: 15px;
     }
 
-    .listaboton {
-        padding: 15px;
+    .planes .listaboton li {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
     }
 }
 
