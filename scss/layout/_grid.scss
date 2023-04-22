@@ -2,51 +2,27 @@
 /**GRID**/
 
 #grid_index {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 #grid_sobremi {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 #grid_servicios {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 #grid_planes {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 #grid_contacto {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 #grid_blog {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
+    @include grid(grid,grid-template-areas "header""principal""footer");
 }
 
 header {

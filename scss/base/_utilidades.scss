@@ -6,3 +6,12 @@
     flex-direction: $direction;
     align-items: $align;
 }
+
+
+@mixin grid($display,$grid-template-areas) {
+    display: grid;
+    grid-template-areas:     
+    "header"
+    "principal"
+    "footer";
+}
