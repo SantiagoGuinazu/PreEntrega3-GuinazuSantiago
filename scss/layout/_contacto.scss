@@ -43,37 +43,40 @@
             margin-top: 15px;
             margin-bottom: 15px;
             border-radius: 4px;
-            border: 1.5px solid #495e8d;
+            border: 1.5px solid #354259;
             background-color: white;
             padding: 12px;
         }
         select {
             margin-bottom: 15px;
             border-radius: 4px;
-            border: 1.5px solid #495e8d;
+            border: 1.5px solid #354259;
             background-color: white;
             padding: 12px;
         }
         .legal a {
-            color: #495e8d;
+            color: #354259;
             font-size: 20px;
             text-decoration: underline;
             &:hover {
-                background-color: $bg-lightpink;
+                color: red;
             }
         }
         .btn-primary {
-            background-color: #495e8d;
+            background-color: #354259;
             border: 2px solid  $bg-lightpink;
             border-radius: 8px;
             margin-top: 5px;
             margin-bottom: 5px;
-            width: 100%;
             font-family: $main-fonta;
-            cursor: pointer;
             font-size: 18px;
             color: $bg-lightpink;
-            --bs-btn-hover-bg: lightblue;
+            &:hover {
+                color: #354259;
+                cursor: pointer;
+                background-color:#F7DAD9;
+                border: 2px solid  #354259;
+            }
         }
     }
 }
