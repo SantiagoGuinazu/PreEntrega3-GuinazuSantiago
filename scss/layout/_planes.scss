@@ -1,16 +1,6 @@
 
 /**PROPIEDADES PLANES**/
 
-/**GRID**/
-
-#grid_planes {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
-}
-
 .planes {
     @include flex(column,center);
     margin-top: 15px;

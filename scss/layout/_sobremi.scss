@@ -1,16 +1,6 @@
 
 /**PROPIEDADES SOBRE MI**/
 
-/**GRID**/
-
-#grid_sobremi {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
-}
-
 .sobremi {
     margin-top: 15px;
     color: $bg-blue;

@@ -123,9 +123,33 @@ footer img:hover {
 }
 
 /** IMPORTS LAYOUT**/
-/**PROPIEDADES INDEX**/
 /**GRID**/
 #grid_index {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+#grid_sobremi {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+#grid_servicios {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+#grid_planes {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+#grid_contacto {
+  display: grid;
+  grid-template-areas: "header" "principal" "footer";
+}
+
+#grid_blog {
   display: grid;
   grid-template-areas: "header" "principal" "footer";
 }
@@ -142,6 +166,7 @@ footer {
   grid-area: footer;
 }
 
+/**PROPIEDADES INDEX**/
 /**PROPIEDADES HABITO ALIMENTICIO**/
 .habitoalimenticio {
   display: flex;
@@ -319,12 +344,6 @@ footer {
 }
 
 /**PROPIEDADES SOBRE MI**/
-/**GRID**/
-#grid_sobremi {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
 .sobremi {
   margin-top: 15px;
   color: #354259;
@@ -384,12 +403,6 @@ footer {
 }
 
 /**PROPIEDADES SERVICIOS**/
-/**GRID**/
-#grid_servicios {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
 .servicios {
   margin-top: 15px;
   margin-bottom: 25px;
@@ -439,12 +452,6 @@ footer {
 }
 
 /**PROPIEDADES PLANES**/
-/**GRID**/
-#grid_planes {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
 .planes {
   display: flex;
   flex-direction: column;
@@ -535,12 +542,6 @@ footer {
 }
 
 /**PROPIEDADES CONTACTO**/
-/**GRID**/
-#grid_contacto {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
 .contacto1 {
   display: flex;
   flex-direction: column;
@@ -612,12 +613,6 @@ footer {
 }
 
 /**PROPIEDADES BLOG**/
-/**GRID**/
-#grid_blog {
-  display: grid;
-  grid-template-areas: "header" "principal" "footer";
-}
-
 .blog {
   margin-top: 15px;
   margin-bottom: 20px;

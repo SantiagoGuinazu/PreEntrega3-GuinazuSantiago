@@ -1,16 +1,6 @@
 
 /**PROPIEDADES CONTACTO**/
 
-/**GRID**/
-
-#grid_contacto {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
-}
-
 .contacto1 {
     display: flex;
     flex-direction: column;

@@ -1,29 +1,6 @@
 
 /**PROPIEDADES INDEX**/
 
-/**GRID**/
-
-#grid_index {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "principal"
-    "footer";
-}
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: principal;
-}
-
-footer {
-    grid-area: footer;
-}
-
-
 /**PROPIEDADES HABITO ALIMENTICIO**/
 
 .habitoalimenticio {
