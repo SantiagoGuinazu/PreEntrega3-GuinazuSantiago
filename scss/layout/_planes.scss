@@ -13,7 +13,7 @@
 
 .planes {
     @include flex(column,center);
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
     margin-bottom: 20px;
     color: $bg-blue;

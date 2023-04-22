@@ -12,7 +12,7 @@
 }
 
 .blog {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px;
     color: $bg-blue;
     h2 {
@@ -20,6 +20,7 @@
         padding: 12px;
         color: $bg-lightpink;
         font-size: $fsh2;
+        margin-bottom: 0;
     }
     h3 {
         background-color: $bg-pink;

@@ -28,7 +28,7 @@ footer {
 
 .habitoalimenticio {
     @include flex(column,center);
-    margin-top: 16px;
+    margin-top: 15px;
     color: $bg-blue;
     h2 {
         background-color: $bg-blue;
