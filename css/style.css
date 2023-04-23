@@ -421,7 +421,6 @@ footer {
   font-size: 32px;
 }
 .servicios a {
-  cursor: pointer;
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: #fabfbd;
@@ -437,18 +436,19 @@ footer {
 .servicios a:hover {
   text-decoration: underline red;
   background-color: lightblue;
-}
-.servicios .accordion-flush .accordion-item:first-child {
-  margin-top: 25px;
+  cursor: pointer;
 }
 .servicios .accordion-flush .accordion-item {
   background-color: #F7DAD9;
 }
-.servicios .accordion-flush .accordion-item .accordion-button, .servicios .accordion-flush .accordion-item .accordion-button.collapsed {
+.servicios .accordion-flush .accordion-item .accordion-button, .servicios .accordion-flush .accordion-item .accordion-flush .accordion-item .accordion-button.collapsed {
   background-color: #fabfbd;
   border-radius: 4px;
   color: #354259;
   font-size: 20px;
+}
+.servicios .accordion-flush .accordion-item:first-child {
+  margin-top: 25px;
 }
 
 /**PROPIEDADES PLANES**/
@@ -678,11 +678,6 @@ footer {
   .header span {
     font-size: 26px;
   }
-  .header ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .header li {
     width: 60%;
     padding: 3px;
@@ -720,9 +715,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .citas {
-    padding: 25px;
-  }
   .serviciosplanes li a {
     margin-top: 10px;
     margin-bottom: 5px;
@@ -730,15 +722,15 @@ footer {
   }
 }
 @media only screen and (max-width: 900px) {
-  .citas h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
   .serviciosplanes a {
     font-size: 20px;
   }
   .citas {
     margin-bottom: 16px;
+  }
+  .citas h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   .citas a {
     margin-inline: 6px;
@@ -751,7 +743,7 @@ footer {
     margin-bottom: 10px;
   }
   .beneficios p {
-    font-size: 24px;
+    font-size: 20px;
   }
   .beneficios img {
     width: 18%;
@@ -798,16 +790,7 @@ footer {
   .sobremi img {
     position: inherit;
   }
-  .sobremi .list4 {
-    position: inherit;
-  }
-  .sobremi .list3 {
-    position: inherit;
-  }
-  .sobremi .list2 {
-    position: inherit;
-  }
-  .sobremi .list1 {
+  .sobremi .list4, .sobremi .list3, .sobremi .list2, .sobremi .list1 {
     position: inherit;
   }
 }
@@ -833,9 +816,6 @@ footer {
 }
 /**MEDIAQUERIES - PLANES**/
 @media only screen and (max-width: 1500px) {
-  .planes h2 {
-    font-size: 22px;
-  }
   .planes a {
     font-size: 18px;
   }
@@ -854,6 +834,14 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .planes h2 {
+    font-size: 22px;
+  }
+  .planes .card p.card-body {
+    font-size: 20px;
   }
 }
 /**MEDIAQUERIES - BLOG**/

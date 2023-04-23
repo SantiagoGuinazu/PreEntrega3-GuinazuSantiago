@@ -18,7 +18,6 @@
         font-size: $fsh2;
     }
     a {
-        cursor: pointer;
         margin-top: 15px;
         margin-bottom: 15px;
         background-color: $bg-pink; 
@@ -33,18 +32,21 @@
         &:hover {
             text-decoration: underline red;
             background-color: lightblue;
+            cursor: pointer;
         }
     }
-    .accordion-flush .accordion-item:first-child {
-        margin-top: 25px;
-    }
-    .accordion-flush .accordion-item {
-        background-color: $bg-lightpink;
-    }
-    .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
-        background-color: $bg-pink;
-        border-radius: 4px;
-        color: #354259;
-        font-size: 20px;
+    .accordion-flush {
+        .accordion-item {
+            background-color: $bg-lightpink;
+            .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+                background-color: $bg-pink;
+                border-radius: 4px;
+                color: #354259;
+                font-size: 20px;
+            }
+        }
+        .accordion-item:first-child {
+            margin-top: 25px;
+        }
     }
 }

@@ -1,22 +1,26 @@
+
 /**MEDIAQUERIES - HEADER**/
+
 @media only screen and (max-width: 700px) {
-    .header img {
-        width: 25%;
-    }
-    .header h1 {
-        font-size: 28px;
-    }
-    .header span {
-        font-size: 40px;
-    }
-    .header ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header li {
-        width: 70%;
-        margin-top: 6px;
+    .header {
+        img {
+            width: 25%;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        span {
+            font-size: 40px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        li {
+            width: 70%;
+            margin-top: 6px;
+        }
     }
     .titulo:after {
         height: 2px;
@@ -25,24 +29,21 @@
 }
 
 @media only screen and (max-width: 360px) {
-    .header img {
-        width: 30%;
-    }
-    .header h1 {
-        font-size: 18px;
-    }
-    .header span {
-        font-size: 26px;
-    }
-    .header ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header li {
-        width: 60%;
-        padding: 3px;
-        margin-top: 6px;
+    .header {
+        img {
+            width: 30%;
+        }
+        h1 {
+            font-size: 18px;
+        }
+        span {
+            font-size: 26px;
+        }
+        li {
+            width: 60%;
+            padding: 3px;
+            margin-top: 6px;
+        }
     }
 }
 
@@ -55,23 +56,27 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .habitoalimenticio h2 {
-        font-size: 22px;
-    }
-    .habitoalimenticio p {
-        font-size: 20px;
+    .habitoalimenticio {
+        h2 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 }
 
 @media only screen and (max-width: 360px) {
-    .habitoalimenticio img {
-        width: 10%;
-    }
-    .habitoalimenticio h2 {
-        font-size: 20px;
-    }
-    .habitoalimenticio p {
-        font-size: 18px;
+    .habitoalimenticio {
+        img {
+            width: 10%;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
     }
 }
 
@@ -79,50 +84,49 @@
 
 /**MEDIAQUERIES - CITAS**/
 @media only screen and (max-width:1580px) {
-    .serviciosplanes li{ 
-        display: flex;
-        flex-direction:column;
-    }
-
-    .citas {
-        padding: 25px;
-    }
-
-    .serviciosplanes li a{ 
-        margin-top: 10px;
-        margin-bottom: 5px;
-        padding: 10px;  
+    .serviciosplanes {
+        li{ 
+            display: flex;
+            flex-direction:column;
+            a{ 
+                margin-top: 10px;
+                margin-bottom: 5px;
+                padding: 10px;  
+            }
+        }
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .citas h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
     .serviciosplanes a {
         font-size: 20px;
     }
     .citas {
         margin-bottom: 16px;
-    }
-    .citas a {
-        margin-inline: 6px;
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        a {
+            margin-inline: 6px;
+        }
     }
 }
 
 /**MEDIAQUERIES - BENEFICIOS**/
 @media only screen and (max-width: 900px) {
-    .beneficios h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    .beneficios p {
-        font-size: 24px;
-    }
-    .beneficios img {
-    width: 18%;
-    }
+    .beneficios {
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 18%;
+            }
+    } 
 }
 
 /**MEDIAQUERIES - OBRAS SOCIALES**/
@@ -134,17 +138,19 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .obrasociales h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    .obrasociales ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .obrasociales img {
-        width: 80%;
+    .obrasociales {
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 80%;
+        }
     }
 }
 
@@ -155,33 +161,28 @@
         width: 70%;
         height: 70%;
     }
-    .sobremi h2 {
-        font-size: 22px;
-    }
-    .sobremi img {
-        position: relative;
-    }
-    .sobremi li {
-        width: 50%;
-        font-size: 18px;
+    .sobremi {
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            position: relative;
+        }
+        li {
+            width: 50%;
+            font-size: 18px;
+        }
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .sobremi img {
-        position: inherit;
-    }
-    .sobremi .list4 {
-        position: inherit;
-    }
-    .sobremi .list3 {
-        position: inherit;
-    }
-    .sobremi .list2 {
-        position: inherit;
-    }
-    .sobremi .list1 {
-        position: inherit;
+    .sobremi {
+        img {
+            position: inherit;
+        }
+        .list4, .list3, .list2, .list1 {
+            position: inherit;
+        }
     }
 }
 
@@ -193,11 +194,13 @@
 
 /**MEDIAQUERIES - SERVICIOS**/
 @media only screen and (max-width: 1500px) {
-    .servicios h2 {
-        font-size: 22px;
-    }
-    .servicios a {
-        font-size: 20px;
+    .servicios {
+        h2 {
+            font-size: 22px;
+        }
+        a {
+            font-size: 20px;
+        }
     }
 }
 
@@ -210,42 +213,58 @@
 
 /**MEDIAQUERIES - PLANES**/
 @media only screen and (max-width: 1500px) {
-    .planes h2 {
-        font-size: 22px;
-    }
-    .planes a {
-        font-size: 18px;
-    }
-    .planes .card-body {
-        font-size: 20px;
-    }
-    .planes .listaboton li a {
-        font-size: 20px;
+    .planes {
+        a {
+            font-size: 18px;
+        }
+        .card-body {
+            font-size: 20px;
+        }
+        .listaboton li a {
+            font-size: 20px;
+        }
     }
 }
-@media only screen and (max-width: 1200px) {
-    .planes .listaboton {
-        padding: 15px;
-    }
 
-    .planes .listaboton li {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
+@media only screen and (max-width: 1200px) {
+    .planes {
+        .listaboton {
+            padding: 15px;
+            li {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+        }
     }
 }
+
+@media only screen and (max-width: 900px) {
+    .planes {
+        h2 {
+            font-size: 22px;
+        }
+        .card p.card-body {
+            font-size: 20px;
+        }
+    }
+}
+
 
 /**MEDIAQUERIES - BLOG**/
 @media only screen and (max-width: 600px) {
-    .blog h2 {
-        font-size: 22px;
+    .blog {
+        h2 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 20px;
+        }
+        img {
+            width: 90%;
+        }
     }
-    .blog p {
-        font-size: 20px;
-    }
-    .blog img {
-        width: 90%;
-    }
+
 }
 
 /**MEDIAQUERIES - CONTACTO**/
