@@ -207,7 +207,7 @@ footer {
   box-shadow: 5px 5px 0px 0px #272727;
 }
 
-.w-75 {
+.w-50 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -711,7 +711,7 @@ footer {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .carousel-inner h3 {
     border: 2px solid #fabfbd;
     padding: 8px;
