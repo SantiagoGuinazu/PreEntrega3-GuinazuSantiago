@@ -34,7 +34,22 @@
     }
 }
 
-
+.w-75 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-inner {
+    h3 {
+        background-color: $bg-blue;
+        border-radius: 10px;
+        border: 4px solid $bg-pink;
+        padding: 12px;
+        margin: 0 auto;
+        color: $bg-lightpink;
+        width: 40%;
+        font-size: $fsh3;
+    }
+}
 
 
 /**PROPIEDADES CITAS**/
