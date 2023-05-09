@@ -821,7 +821,9 @@ footer {
 @media only screen and (max-width: 400px) {
   .servicios a {
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
   }
 }
 /**MEDIAQUERIES - PLANES**/
