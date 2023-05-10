@@ -7,26 +7,25 @@ footer {
     padding: 22px;
     background-color: #354259;
     text-align: center;
+    .redesociales {
+        li {
+            display: inline;
+            text-decoration: none;
+            margin-inline: 25px;
+            img {
+                width: 50px;
+                &:hover {
+                    transition: 1s;
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
     img {
         width: 200px;
         &:hover {
             transition: 1s;
             transform: rotate(360deg);
-        }
-    }
-}
-
-.redesociales {
-    li {
-        display: inline;
-        text-decoration: none;
-        margin-inline: 25px;
-        img {
-            width: 50px;
-            &:hover {
-                transition: 1s;
-                transform: rotate(360deg);
-            }
         }
     }
 }

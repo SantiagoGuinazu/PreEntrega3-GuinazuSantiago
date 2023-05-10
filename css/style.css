@@ -70,6 +70,13 @@ header img:hover {
   transition: 1s;
   transform: rotate(360deg);
 }
+header .nav-list li {
+  transition: 2s;
+}
+header .nav-list li:hover {
+  text-decoration: underline red;
+  background-color: lightblue;
+}
 
 .titulo {
   display: inline-block;
@@ -94,14 +101,6 @@ header img:hover {
   transform-origin: bottom left;
 }
 
-.nav-list li {
-  transition: 2s;
-}
-.nav-list li:hover {
-  text-decoration: underline red;
-  background-color: lightblue;
-}
-
 /**PROPIEDADES FOOTER**/
 footer {
   display: flex;
@@ -110,23 +109,22 @@ footer {
   background-color: #354259;
   text-align: center;
 }
-footer img {
-  width: 200px;
-}
-footer img:hover {
-  transition: 1s;
-  transform: rotate(360deg);
-}
-
-.redesociales li {
+footer .redesociales li {
   display: inline;
   text-decoration: none;
   margin-inline: 25px;
 }
-.redesociales li img {
+footer .redesociales li img {
   width: 50px;
 }
-.redesociales li img:hover {
+footer .redesociales li img:hover {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+footer img {
+  width: 200px;
+}
+footer img:hover {
   transition: 1s;
   transform: rotate(360deg);
 }

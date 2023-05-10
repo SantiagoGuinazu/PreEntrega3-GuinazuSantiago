@@ -43,6 +43,13 @@ header {
             transform: rotate(360deg);
         }
     }
+    .nav-list li{
+        transition: 2s;
+        &:hover {
+            text-decoration: underline red;
+            background-color: lightblue;
+        }
+    }
 }
 
 .titulo {
@@ -67,10 +74,3 @@ header {
     transform-origin: bottom left;
 }
 
-.nav-list li{
-    transition: 2s;
-    &:hover {
-        text-decoration: underline red;
-        background-color: lightblue;
-    }
-}
