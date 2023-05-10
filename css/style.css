@@ -63,6 +63,9 @@ header a {
   color: #354259;
   font-size: 28px;
 }
+header img {
+  width: 200px;
+}
 header img:hover {
   transition: 1s;
   transform: rotate(360deg);
@@ -107,6 +110,9 @@ footer {
   background-color: #354259;
   text-align: center;
 }
+footer img {
+  width: 200px;
+}
 footer img:hover {
   transition: 1s;
   transform: rotate(360deg);
@@ -117,7 +123,10 @@ footer img:hover {
   text-decoration: none;
   margin-inline: 25px;
 }
-.redesociales img:hover {
+.redesociales li img {
+  width: 50px;
+}
+.redesociales li img:hover {
   transition: 1s;
   transform: rotate(360deg);
 }
@@ -304,19 +313,6 @@ footer {
   box-shadow: 5px 5px 0px 0px #272727;
 }
 
-.gradientes p {
-  background: linear-gradient(to top, #f0928f, #fcc1bf);
-}
-.gradientes img {
-  background: radial-gradient(circle, #f0928f, #fcc1bf);
-  margin-bottom: 20px;
-  border-radius: 100%;
-}
-.gradientes img:hover {
-  transition: 1s;
-  transform: rotate(360deg);
-}
-
 /**PROPIEDADES OBRAS SOCIALES**/
 .obrasociales {
   margin-bottom: 40px;
@@ -338,6 +334,9 @@ footer {
 .obrasociales li {
   display: inline;
   margin-inline: 78px;
+}
+.obrasociales img {
+  width: 260px;
 }
 .obrasociales img:hover {
   transform: rotate(15deg);
@@ -542,6 +541,7 @@ footer {
   background: linear-gradient(to top, #f0928f, #fcc1bf);
 }
 .beneficios img {
+  width: 140px;
   background: radial-gradient(circle, #f0928f, #fcc1bf);
   margin-bottom: 20px;
   border-radius: 100%;

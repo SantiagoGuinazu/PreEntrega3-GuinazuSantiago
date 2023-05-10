@@ -7,9 +7,12 @@ footer {
     padding: 22px;
     background-color: #354259;
     text-align: center;
-    img:hover {
-        transition: 1s;
-        transform: rotate(360deg);
+    img {
+        width: 200px;
+        &:hover {
+            transition: 1s;
+            transform: rotate(360deg);
+        }
     }
 }
 
@@ -18,9 +21,12 @@ footer {
         display: inline;
         text-decoration: none;
         margin-inline: 25px;
-    }
-    img:hover {
-        transition: 1s;
-        transform: rotate(360deg);
+        img {
+            width: 50px;
+            &:hover {
+                transition: 1s;
+                transform: rotate(360deg);
+            }
+        }
     }
 }
