@@ -65,6 +65,7 @@ header a {
 }
 header img {
   width: 200px;
+  height: 157px;
 }
 header img:hover {
   transition: 1s;
@@ -116,6 +117,7 @@ footer .redesociales li {
 }
 footer .redesociales li img {
   width: 50px;
+  height: 49px;
 }
 footer .redesociales li img:hover {
   transition: 1s;
@@ -123,6 +125,7 @@ footer .redesociales li img:hover {
 }
 footer img {
   width: 200px;
+  height: 140px;
 }
 footer img:hover {
   transition: 1s;
@@ -335,6 +338,7 @@ footer {
 }
 .obrasociales img {
   width: 260px;
+  height: 68px;
 }
 .obrasociales img:hover {
   transform: rotate(15deg);
@@ -370,6 +374,7 @@ footer {
   right: 20%;
   margin-top: 12px;
   width: 600px;
+  height: 600px;
 }
 .sobremi li {
   list-style-type: none;
@@ -541,6 +546,7 @@ footer {
 }
 .beneficios img {
   width: 140px;
+  height: 140px;
   background: radial-gradient(circle, #f0928f, #fcc1bf);
   margin-bottom: 20px;
   border-radius: 100%;
@@ -645,6 +651,7 @@ footer {
 }
 .blog img {
   width: 450px;
+  height: 450px;
   margin-bottom: 12px;
   margin-top: 6px;
   transition: 1s;
@@ -656,7 +663,8 @@ footer {
 /**MEDIAQUERIES - HEADER**/
 @media only screen and (max-width: 700px) {
   .header img {
-    width: 25%;
+    width: 150px;
+    height: 110px;
   }
   .header h1 {
     font-size: 28px;
@@ -680,7 +688,8 @@ footer {
 }
 @media only screen and (max-width: 360px) {
   .header img {
-    width: 30%;
+    width: 100px;
+    height: 80px;
   }
   .header h1 {
     font-size: 18px;
@@ -756,13 +765,15 @@ footer {
     font-size: 20px;
   }
   .beneficios img {
-    width: 18%;
+    width: 70px;
+    height: 70px;
   }
 }
 /**MEDIAQUERIES - OBRAS SOCIALES**/
 @media only screen and (max-width: 1400px) {
   .obrasociales img {
-    width: 15%;
+    width: 150px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -774,9 +785,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .obrasociales img {
-    width: 80%;
   }
 }
 /**MEDIAQUERIES - SOBRE MI**/
@@ -806,7 +814,8 @@ footer {
 }
 @media only screen and (max-width: 650px) {
   .sobremi img {
-    width: 80%;
+    width: 300px;
+    height: 300px;
   }
 }
 /**MEDIAQUERIES - SERVICIOS**/
@@ -865,7 +874,8 @@ footer {
     font-size: 20px;
   }
   .blog img {
-    width: 90%;
+    width: 290px;
+    height: 290px;
   }
 }
 /**MEDIAQUERIES - CONTACTO**/
@@ -882,7 +892,8 @@ footer {
 /**MEDIAQUERIES - FOOTER**/
 @media only screen and (max-width: 600px) {
   .imgfooter img {
-    width: 35%;
+    width: 120px;
+    height: 85px;
   }
 }
 

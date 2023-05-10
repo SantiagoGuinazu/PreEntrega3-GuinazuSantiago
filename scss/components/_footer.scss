@@ -14,6 +14,7 @@ footer {
             margin-inline: 25px;
             img {
                 width: 50px;
+                height: 49px;
                 &:hover {
                     transition: 1s;
                     transform: rotate(360deg);
@@ -23,6 +24,7 @@ footer {
     }
     img {
         width: 200px;
+        height: 140px;
         &:hover {
             transition: 1s;
             transform: rotate(360deg);
