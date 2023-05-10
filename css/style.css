@@ -371,6 +371,7 @@ footer {
   position: relative;
   right: 20%;
   margin-top: 12px;
+  width: 600px;
 }
 .sobremi li {
   list-style-type: none;
@@ -645,6 +646,7 @@ footer {
   padding: 10px;
 }
 .blog img {
+  width: 450px;
   margin-bottom: 12px;
   margin-top: 6px;
   transition: 1s;
