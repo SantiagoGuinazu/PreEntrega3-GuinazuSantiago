@@ -338,7 +338,7 @@ footer {
 }
 .obrasociales img {
   width: 279px;
-  height: auto;
+  height: 68px;
 }
 .obrasociales img:hover {
   transform: rotate(15deg);
@@ -773,11 +773,13 @@ footer {
 @media only screen and (max-width: 1350px) {
   .obrasociales img {
     width: 174.375px;
+    height: 42.75px;
   }
 }
 @media only screen and (max-width: 900px) {
   .obrasociales img {
     width: 139.5px;
+    height: 34px;
   }
   .obrasociales h2 {
     font-size: 24px;
