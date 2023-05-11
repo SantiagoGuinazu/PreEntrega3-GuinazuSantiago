@@ -124,8 +124,8 @@ footer .redesociales li img:hover {
   transform: rotate(360deg);
 }
 footer img {
-  width: 200px;
-  height: 140px;
+  width: 191.25px;
+  height: 149.25px;
 }
 footer img:hover {
   transition: 1s;
@@ -892,8 +892,8 @@ footer {
 /**MEDIAQUERIES - FOOTER**/
 @media only screen and (max-width: 600px) {
   .imgfooter img {
-    width: 120px;
-    height: 85px;
+    width: 123.5px;
+    height: 99.5px;
   }
 }
 
